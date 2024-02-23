@@ -15,8 +15,8 @@
 
 # Update these values, then `source` this script
 export REGION=us-east-1
-export NETWORKNAME=healthcareSupplychain
-export MEMBERNAME=Manufacturer
+export NETWORKNAME=bookkeepingchain #healthcareSupplychain
+export MEMBERNAME=ABC #Manufacturer
 export NETWORKVERSION=1.2
 export ADMINUSER=admin
 export ADMINPWD=Admin123
@@ -67,7 +67,7 @@ export MSP_PATH=/opt/home/admin-msp
 export MSP=$MEMBERID
 export ORDERER=$ORDERINGSERVICEENDPOINT
 export PEER=$PEERSERVICEENDPOINT
-export CHANNEL=mychannel
+export CHANNEL=bookkeepingchannel#mychannel
 export CAFILE=/opt/home/managedblockchain-tls-chain.pem
 export CHAINCODENAME=mycc
 export CHAINCODEVERSION=v0
